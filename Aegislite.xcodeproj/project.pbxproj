@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17ABBB7C2190229E003526AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ABBB7B2190229E003526AF /* AppDelegate.swift */; };
+		17ABBB7E2190229E003526AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ABBB7D2190229E003526AF /* ViewController.swift */; };
+		17ABBB812190229E003526AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17ABBB7F2190229E003526AF /* Main.storyboard */; };
+		17ABBB832190229E003526AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17ABBB822190229E003526AF /* Assets.xcassets */; };
+		17ABBB862190229E003526AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17ABBB842190229E003526AF /* LaunchScreen.storyboard */; };
+		17ABBB912190229E003526AF /* AegisliteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ABBB902190229E003526AF /* AegisliteTests.swift */; };
+		17ABBB9C2190229E003526AF /* AegisliteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ABBB9B2190229E003526AF /* AegisliteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17ABBB8D2190229E003526AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17ABBB702190229E003526AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17ABBB772190229E003526AF;
+			remoteInfo = Aegislite;
+		};
+		17ABBB982190229E003526AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17ABBB702190229E003526AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17ABBB772190229E003526AF;
+			remoteInfo = Aegislite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17ABBB782190229E003526AF /* Aegislite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aegislite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17ABBB7B2190229E003526AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17ABBB7D2190229E003526AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17ABBB802190229E003526AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17ABBB822190229E003526AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17ABBB852190229E003526AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17ABBB872190229E003526AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17ABBB8C2190229E003526AF /* AegisliteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AegisliteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17ABBB902190229E003526AF /* AegisliteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AegisliteTests.swift; sourceTree = "<group>"; };
+		17ABBB922190229E003526AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17ABBB972190229E003526AF /* AegisliteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AegisliteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17ABBB9B2190229E003526AF /* AegisliteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AegisliteUITests.swift; sourceTree = "<group>"; };
+		17ABBB9D2190229E003526AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17ABBB752190229E003526AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17ABBB892190229E003526AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17ABBB942190229E003526AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17ABBB6F2190229E003526AF = {
+			isa = PBXGroup;
+			children = (
+				17ABBB7A2190229E003526AF /* Aegislite */,
+				17ABBB8F2190229E003526AF /* AegisliteTests */,
+				17ABBB9A2190229E003526AF /* AegisliteUITests */,
+				17ABBB792190229E003526AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17ABBB792190229E003526AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17ABBB782190229E003526AF /* Aegislite.app */,
+				17ABBB8C2190229E003526AF /* AegisliteTests.xctest */,
+				17ABBB972190229E003526AF /* AegisliteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17ABBB7A2190229E003526AF /* Aegislite */ = {
+			isa = PBXGroup;
+			children = (
+				17ABBB7B2190229E003526AF /* AppDelegate.swift */,
+				17ABBB7D2190229E003526AF /* ViewController.swift */,
+				17ABBB7F2190229E003526AF /* Main.storyboard */,
+				17ABBB822190229E003526AF /* Assets.xcassets */,
+				17ABBB842190229E003526AF /* LaunchScreen.storyboard */,
+				17ABBB872190229E003526AF /* Info.plist */,
+			);
+			path = Aegislite;
+			sourceTree = "<group>";
+		};
+		17ABBB8F2190229E003526AF /* AegisliteTests */ = {
+			isa = PBXGroup;
+			children = (
+				17ABBB902190229E003526AF /* AegisliteTests.swift */,
+				17ABBB922190229E003526AF /* Info.plist */,
+			);
+			path = AegisliteTests;
+			sourceTree = "<group>";
+		};
+		17ABBB9A2190229E003526AF /* AegisliteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17ABBB9B2190229E003526AF /* AegisliteUITests.swift */,
+				17ABBB9D2190229E003526AF /* Info.plist */,
+			);
+			path = AegisliteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17ABBB772190229E003526AF /* Aegislite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17ABBBA02190229E003526AF /* Build configuration list for PBXNativeTarget "Aegislite" */;
+			buildPhases = (
+				17ABBB742190229E003526AF /* Sources */,
+				17ABBB752190229E003526AF /* Frameworks */,
+				17ABBB762190229E003526AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aegislite;
+			productName = Aegislite;
+			productReference = 17ABBB782190229E003526AF /* Aegislite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17ABBB8B2190229E003526AF /* AegisliteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17ABBBA32190229E003526AF /* Build configuration list for PBXNativeTarget "AegisliteTests" */;
+			buildPhases = (
+				17ABBB882190229E003526AF /* Sources */,
+				17ABBB892190229E003526AF /* Frameworks */,
+				17ABBB8A2190229E003526AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17ABBB8E2190229E003526AF /* PBXTargetDependency */,
+			);
+			name = AegisliteTests;
+			productName = AegisliteTests;
+			productReference = 17ABBB8C2190229E003526AF /* AegisliteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17ABBB962190229E003526AF /* AegisliteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17ABBBA62190229E003526AF /* Build configuration list for PBXNativeTarget "AegisliteUITests" */;
+			buildPhases = (
+				17ABBB932190229E003526AF /* Sources */,
+				17ABBB942190229E003526AF /* Frameworks */,
+				17ABBB952190229E003526AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17ABBB992190229E003526AF /* PBXTargetDependency */,
+			);
+			name = AegisliteUITests;
+			productName = AegisliteUITests;
+			productReference = 17ABBB972190229E003526AF /* AegisliteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17ABBB702190229E003526AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Tatang Roswandi Ganda Wijaya";
+				TargetAttributes = {
+					17ABBB772190229E003526AF = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					17ABBB8B2190229E003526AF = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 17ABBB772190229E003526AF;
+					};
+					17ABBB962190229E003526AF = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 17ABBB772190229E003526AF;
+					};
+				};
+			};
+			buildConfigurationList = 17ABBB732190229E003526AF /* Build configuration list for PBXProject "Aegislite" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17ABBB6F2190229E003526AF;
+			productRefGroup = 17ABBB792190229E003526AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17ABBB772190229E003526AF /* Aegislite */,
+				17ABBB8B2190229E003526AF /* AegisliteTests */,
+				17ABBB962190229E003526AF /* AegisliteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17ABBB762190229E003526AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17ABBB862190229E003526AF /* LaunchScreen.storyboard in Resources */,
+				17ABBB832190229E003526AF /* Assets.xcassets in Resources */,
+				17ABBB812190229E003526AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17ABBB8A2190229E003526AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17ABBB952190229E003526AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17ABBB742190229E003526AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17ABBB7E2190229E003526AF /* ViewController.swift in Sources */,
+				17ABBB7C2190229E003526AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17ABBB882190229E003526AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17ABBB912190229E003526AF /* AegisliteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17ABBB932190229E003526AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17ABBB9C2190229E003526AF /* AegisliteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17ABBB8E2190229E003526AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17ABBB772190229E003526AF /* Aegislite */;
+			targetProxy = 17ABBB8D2190229E003526AF /* PBXContainerItemProxy */;
+		};
+		17ABBB992190229E003526AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17ABBB772190229E003526AF /* Aegislite */;
+			targetProxy = 17ABBB982190229E003526AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17ABBB7F2190229E003526AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17ABBB802190229E003526AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17ABBB842190229E003526AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17ABBB852190229E003526AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17ABBB9E2190229E003526AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17ABBB9F2190229E003526AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17ABBBA12190229E003526AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z4G3XCB9Y;
+				INFOPLIST_FILE = Aegislite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TRGW.Aegislite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17ABBBA22190229E003526AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z4G3XCB9Y;
+				INFOPLIST_FILE = Aegislite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TRGW.Aegislite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17ABBBA42190229E003526AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z4G3XCB9Y;
+				INFOPLIST_FILE = AegisliteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TRGW.AegisliteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aegislite.app/Aegislite";
+			};
+			name = Debug;
+		};
+		17ABBBA52190229E003526AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z4G3XCB9Y;
+				INFOPLIST_FILE = AegisliteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TRGW.AegisliteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aegislite.app/Aegislite";
+			};
+			name = Release;
+		};
+		17ABBBA72190229E003526AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z4G3XCB9Y;
+				INFOPLIST_FILE = AegisliteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TRGW.AegisliteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aegislite;
+			};
+			name = Debug;
+		};
+		17ABBBA82190229E003526AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z4G3XCB9Y;
+				INFOPLIST_FILE = AegisliteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TRGW.AegisliteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aegislite;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17ABBB732190229E003526AF /* Build configuration list for PBXProject "Aegislite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17ABBB9E2190229E003526AF /* Debug */,
+				17ABBB9F2190229E003526AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17ABBBA02190229E003526AF /* Build configuration list for PBXNativeTarget "Aegislite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17ABBBA12190229E003526AF /* Debug */,
+				17ABBBA22190229E003526AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17ABBBA32190229E003526AF /* Build configuration list for PBXNativeTarget "AegisliteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17ABBBA42190229E003526AF /* Debug */,
+				17ABBBA52190229E003526AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17ABBBA62190229E003526AF /* Build configuration list for PBXNativeTarget "AegisliteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17ABBBA72190229E003526AF /* Debug */,
+				17ABBBA82190229E003526AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17ABBB702190229E003526AF /* Project object */;
+}
