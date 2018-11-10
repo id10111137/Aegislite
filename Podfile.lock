@@ -1,0 +1,54 @@
+PODS:
+  - Alamofire (4.7.3)
+  - CocoaAsyncSocket (7.6.3)
+  - CocoaMQTT (1.1.3):
+    - CocoaAsyncSocket (~> 7.6.3)
+  - DynamicBlurView (3.0.1)
+  - Floaty (4.1.0)
+  - iOSDropDown (0.2.6)
+  - PopupDialog (0.9.1):
+    - DynamicBlurView (~> 3.0.1)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SwiftyJSON (4.2.0)
+  - Toast-Swift (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - CocoaMQTT
+  - Floaty (~> 4.1.0)
+  - iOSDropDown
+  - PopupDialog (~> 0.9)
+  - SDWebImage (~> 4.0)
+  - SwiftyJSON (~> 4.0)
+  - Toast-Swift (~> 4.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CocoaAsyncSocket
+    - CocoaMQTT
+    - DynamicBlurView
+    - Floaty
+    - iOSDropDown
+    - PopupDialog
+    - SDWebImage
+    - SwiftyJSON
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  CocoaMQTT: b506d38ad3bbe1c55a4f8ee8c9fd02c35da1a7d8
+  DynamicBlurView: b1df5415f9bd31897549e5d7077e5ec120a4d636
+  Floaty: 1a4e213f3512cf3045ef9cb0c1ff456226d1f66a
+  iOSDropDown: 90608a7270234c503260ef13314907b6703b39aa
+  PopupDialog: 03985b669c29802661c187513bf827340db1ae4d
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  Toast-Swift: 594b5c5e5129f15438e410207e43287f027b3c00
+
+PODFILE CHECKSUM: 78fc3744c90e4e870c1864d586ae344d555d0179
+
+COCOAPODS: 1.5.3

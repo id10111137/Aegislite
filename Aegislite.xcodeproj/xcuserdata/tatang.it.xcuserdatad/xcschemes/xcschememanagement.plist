@@ -7,7 +7,25 @@
 		<key>Aegislite.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>10</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>17ABBB772190229E003526AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>17ABBB8B2190229E003526AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>17ABBB962190229E003526AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
